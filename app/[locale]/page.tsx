@@ -2,26 +2,32 @@ import { Navbar } from "@/components/navbar";
 import { useTranslations } from "next-intl";
 
 export default function HomePage() {
-  const t = useTranslations("Hero");
+  const hero = useTranslations("Hero");
+  const about = useTranslations("About");
 
   return (
     <>
       <Navbar />
 
       <main id="home">
-        <section className="flex min-h-[calc(100vh-4rem)] items-center justify-center px-4">
+        <section
+          id="home"
+          className="border-t bg-muted/30 px-4 py-24"
+        >
           <div className="mx-auto max-w-4xl text-center">
-            <p className="mb-4 text-sm font-medium text-primary">
-              {t("badge")}
-            </p>
+            <h2>{hero("title")}</h2>
 
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-              {t("title")}
-            </h1>
+            <p>{hero("description")}</p>
+          </div>
+        </section>
+        <section
+          id="about"
+          className="border-t bg-muted/30 px-4 py-24"
+        >
+          <div className="mx-auto max-w-4xl text-center">
+            <h2>{about("title")}</h2>
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-              {t("description")}
-            </p>
+            <p>{about("description")}</p>
           </div>
         </section>
       </main>
