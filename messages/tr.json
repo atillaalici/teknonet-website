@@ -1,0 +1,36 @@
+{
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetlerimiz",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "Hero": {
+    "badge": "Teknoloji ve Yazılım Çözümleri",
+    "title": "İşinizi Geleceğe Taşıyoruz",
+    "description": "Yazılım, bilgisayar, teknik servis ve teknoloji çözümleriyle işletmenizin ihtiyaçlarına profesyonel çözümler sunuyoruz.",
+    "primaryButton": "Hizmetlerimizi Keşfet",
+    "secondaryButton": "Bize Ulaşın"
+  },
+  "Services": {
+    "title": "Hizmetlerimiz",
+    "description": "İhtiyaçlarınıza uygun teknoloji ve yazılım çözümleri sunuyoruz.",
+    "software": "Yazılım Çözümleri",
+    "computer": "Bilgisayar Hizmetleri",
+    "technicalService": "Teknik Servis",
+    "mobile": "Cep Telefonu Servisi",
+    "accessories": "Aksesuar"
+  },
+  "About": {
+    "title": "Hakkımızda",
+    "description": "Teknonet Yazılım olarak teknoloji, yazılım, bilgisayar ve teknik servis alanlarında müşterilerimize güvenilir ve profesyonel çözümler sunuyoruz."
+  },
+  "Contact": {
+    "title": "İletişime Geçin",
+    "description": "Projeleriniz ve ihtiyaçlarınız hakkında bizimle iletişime geçin.",
+    "button": "İletişime Geç"
+  },
+  "Footer": {
+    "copyright": "© 2026 Teknonet Yazılım. Tüm hakları saklıdır."
+  }
+}

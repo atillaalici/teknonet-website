@@ -1,0 +1,36 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "badge": "Technology and Software Solutions",
+    "title": "Taking Your Business Into the Future",
+    "description": "We provide professional software, computer, technical service and technology solutions tailored to your business needs.",
+    "primaryButton": "Explore Our Services",
+    "secondaryButton": "Contact Us"
+  },
+  "Services": {
+    "title": "Our Services",
+    "description": "We provide technology and software solutions tailored to your needs.",
+    "software": "Software Solutions",
+    "computer": "Computer Services",
+    "technicalService": "Technical Service",
+    "mobile": "Mobile Phone Service",
+    "accessories": "Accessories"
+  },
+  "About": {
+    "title": "About Us",
+    "description": "At Teknonet Yazılım, we provide reliable and professional solutions in software, computer technology and technical services."
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "description": "Contact us about your projects and technology needs.",
+    "button": "Contact Us"
+  },
+  "Footer": {
+    "copyright": "© 2026 Teknonet Yazılım. All rights reserved."
+  }
+}
