@@ -6,6 +6,7 @@ import {
   Cpu,
   Headphones,
   MonitorCog,
+  Phone,
   ShieldCheck,
   Smartphone,
   Sparkles,
@@ -119,7 +120,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section id="contact" className="px-4 py-20 sm:py-28"><div className="mx-auto max-w-7xl rounded-3xl bg-primary px-6 py-12 text-center text-primary-foreground shadow-2xl shadow-primary/20 sm:px-12 sm:py-16"><p className="text-sm font-semibold tracking-[0.2em] uppercase opacity-75">Birlikte büyüyelim</p><h2 className="mx-auto mt-4 max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">{contact("title")}</h2><p className="mx-auto mt-5 max-w-xl text-lg leading-8 opacity-80">{contact("description")}</p><a href="mailto:info@teknonet.com" className="mt-9 inline-flex items-center gap-2 rounded-xl bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-transform hover:-translate-y-0.5">{contact("button")} <ArrowRight className="size-4" /></a></div></section>
+        <section id="contact" className="px-4 py-20 sm:py-28"><div className="mx-auto max-w-7xl rounded-3xl bg-primary px-6 py-12 text-center text-primary-foreground shadow-2xl shadow-primary/20 sm:px-12 sm:py-16"><p className="text-sm font-semibold tracking-[0.2em] uppercase opacity-75">Birlikte büyüyelim</p><h2 className="mx-auto mt-4 max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">{contact("title")}</h2><p className="mx-auto mt-5 max-w-xl text-lg leading-8 opacity-80">{contact("description")}</p><a href="tel:+905325665899" className="mt-9 inline-flex items-center gap-2 rounded-xl bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-transform hover:-translate-y-0.5"><Phone className="size-4" />{contact("button")}</a></div></section>
       </main>
     </>
   );
