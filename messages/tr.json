@@ -28,7 +28,13 @@
   "Contact": {
     "title": "İletişime Geçin",
     "description": "Projeleriniz ve ihtiyaçlarınız hakkında bizimle iletişime geçin.",
-    "button": "İletişime Geç: +90 532 566 58 99"
+    "button": "İletişime Geç",
+    "emailLabel": "E-posta",
+    "email": "info@teknonet.com",
+    "phoneLabel": "Telefon",
+    "phone": "+90 532 566 58 99",
+    "whatsappLabel": "WhatsApp",
+    "whatsapp": "WhatsApp'tan yazın"
   },
   "Footer": {
     "copyright": "© 2026 Teknonet Yazılım. Tüm hakları saklıdır."

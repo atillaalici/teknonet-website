@@ -28,7 +28,13 @@
   "Contact": {
     "title": "Get in Touch",
     "description": "Contact us about your projects and technology needs.",
-    "button": "Call Us: +90 532 566 58 99"
+    "button": "Get in Touch",
+    "emailLabel": "Email",
+    "email": "info@teknonet.com",
+    "phoneLabel": "Phone",
+    "phone": "+90 532 566 58 99",
+    "whatsappLabel": "WhatsApp",
+    "whatsapp": "Message us on WhatsApp"
   },
   "Footer": {
     "copyright": "© 2026 Teknonet Yazılım. All rights reserved."
