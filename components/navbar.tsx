@@ -5,8 +5,12 @@ import Link from "next/link";
 import { Globe, Menu, Monitor, Moon, Sun, X } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { useTheme } from "next-themes";
+
+const subscribeToHydration = () => () => {};
+const getClientSnapshot = () => true;
+const getServerSnapshot = () => false;
 
 export function Navbar() {
   const t = useTranslations("Navigation");
@@ -16,11 +20,12 @@ export function Navbar() {
   const { theme, setTheme } = useTheme();
 
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  // Keep server and hydration markup identical before reading the saved theme.
+  const mounted = useSyncExternalStore(
+    subscribeToHydration,
+    getClientSnapshot,
+    getServerSnapshot,
+  );
 
   const navigation = [
     {
